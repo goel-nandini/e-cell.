@@ -1,0 +1,300 @@
+/**************************/
+/* BELOW 1190px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 74em) {
+  .edu-description span {
+    font-size: 2rem;
+  }
+}
+
+/**************************/
+/* BELOW 1050px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 66em) {
+  .about-heading {
+    font-size: 3.2rem;
+  }
+
+  .name-heading {
+    font-size: 5.2rem;
+  }
+
+  .grid {
+    gap: 3.2rem;
+  }
+
+  .skill-name {
+    font-size: 1.6rem;
+  }
+}
+
+/**************************/
+/* BELOW 952px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 59.5em) {
+  .skill {
+    width: 95%;
+    padding: 0 1.2rem;
+  }
+
+  .about-heading {
+    font-size: 2.4rem;
+  }
+
+  .about-description {
+    font-size: 1.6rem;
+  }
+
+  .about-text span {
+    font-size: 2rem;
+  }
+
+  .btn--know-more {
+    font-size: 1.6rem;
+  }
+
+  .main-nav-list {
+    gap: 2.4rem;
+    font-size: 1.6rem;
+  }
+}
+
+/**************************/
+/* BELOW 864px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 54em) {
+  .name-heading {
+    font-size: 4.4rem;
+  }
+
+  .hero-description,
+  .hero-text-box span {
+    font-size: 1.8rem;
+  }
+
+  .btn .btn-text {
+    font-size: 1.2rem;
+  }
+  .btn-icon {
+    padding: 4px;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #fff;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .skill {
+    width: 60%;
+  }
+  .skill-per,
+  .skill-bar {
+    height: 1rem;
+  }
+  .skill-subheading-query {
+    padding-top: 6.4rem;
+  }
+  .professional-skills,
+  .technical-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+/**************************/
+/* BELOW 752px (TABLETS) */
+/**************************/
+
+@media (max-width: 47em) {
+  .hero {
+    gap: 4.8rem;
+  }
+
+  .name-heading {
+    font-size: 3.6rem;
+  }
+
+  .hero-description,
+  .hero-text-box span {
+    font-size: 1.6rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-me {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-links {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-links .contact-subheads {
+    grid-column: span 2;
+  }
+  .contact-section .heading-secondary {
+    margin-bottom: 6.4rem;
+  }
+  .contact-links a:link {
+    font-size: 1.2rem;
+  }
+  .form .contact-subheads {
+    margin-bottom: 6.4rem;
+  }
+  .about-heading {
+    font-size: 2rem;
+  }
+
+  .about-description {
+    font-size: 1.2rem;
+  }
+
+  .about-text span {
+    font-size: 1.8rem;
+  }
+
+  .btn--know-more {
+    font-size: 1.2rem;
+  }
+
+  .about-me {
+    grid-template-columns: 2fr 3fr;
+  }
+  /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.575);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* Hide navigation */
+    /* Allows NO transitions at all */
+    /* display: none; */
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+    color: #1f1f1f;
+  }
+}
+
+/**************************/
+/* BELOW 696px (TABLETS) */
+/**************************/
+
+@media (max-width: 43.5em) {
+  .about-me {
+    grid-template-columns: 1fr;
+  }
+
+  .img-me {
+    width: 25rem;
+    height: 30rem;
+    border-radius: 50%;
+    box-shadow: 0 0 2.4rem 0.5rem rgba(0, 0, 0, 0.6);
+  }
+
+  .hero {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .name-heading {
+    font-size: 2.8rem;
+  }
+
+  .hero-description,
+  .hero-text-box span {
+    font-size: 1.2rem;
+  }
+
+  .skill-name span {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .skill-per::before {
+    padding: 2px 3px;
+  }
+  .skill-per::after {
+    height: 6px;
+    width: 6px;
+    top: -21px;
+  }
+}
+
+/**************************/
+/* BELOW 512px (TABLETS) */
+/**************************/
+
+@media (max-width: 32em) {
+  .skill {
+    width: 90%;
+  }
+  .edu-heading {
+    font-size: 3rem;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-me {
+    gap: 2.4rem;
+  }
+
+  .contact-input {
+    width: 85%;
+  }
+}

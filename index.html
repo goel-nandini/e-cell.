@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/general.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/queries.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- <link rel="manifest" href="/favicons/manifest.json" /> -->
+
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="icon" href="img/icon2.png" />
+
+  <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+  <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
+  <script defer src="script.js"></script>
+  <title>e-cell website</title>
+</head>
+
+<body>
+  <header class="header sticky">
+    <div class="logo">
+      <a href="#"><img src="img/logob.jpg" alt="logo of e cell" class="logo-img" /></a>
+
+    </div>
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li><a href="#hero-section" class="main-nav-link nav-cta"> Home </a></li>
+        <li><a href="#about-section" class="main-nav-link nav-cta"> Events </a></li>
+        <li><a href="#skill-section" class="main-nav-link nav-cta">Meet Our Team</a></li>
+        <li>
+          <a href="#education-section" class="main-nav-link nav-cta">Past Speakers</a>
+        </li>
+        <li>
+          <a href="#project-section" class="main-nav-link nav-cta">Gallery</a>
+        </li>
+        <li>
+          <a href="#contact-section" class="main-nav-link nav-cta">
+            Get in Touch</a>
+        </li>
+      </ul>
+    </nav>
+
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav nav-open" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav nav-close" name="close-outline"></ion-icon>
+    </button>
+  </header>
+  <section id="hero-section" class="section hero-section">
+    <div class="hero">
+      <div class="hero-text-box">
+        <span>
+          <P>CONNECT,
+            INSPIRE,
+            GUIDE</P>
+          <h1 class="name-heading">E-CEll</h1>
+        </span>
+        <p class="hero-description">
+          INIF centre situated in Ghaziabad
+        </p>
+
+        <div class="button">
+          <!-- <a href="resume.pdf" target="_blank" download class="btn"> -->
+          <ion-icon name="cloud-download-outline" class="btn-icon"></ion-icon>
+          <!-- <span class="btn-text">Download Resume</span></a> -->
+        </div>
+      </div>
+
+      <div class="hero-img-box">
+        <img src="https://i.pinimg.com/originals/71/04/01/7104010c1320d4a40bb47ac80d3031b1.gif" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section about-section" id="about-section">
+    <div class="about-me">
+      <div class="about-img">
+        <img src="https://i.gifer.com/origin/57/571b74e312ea488c5e187664ded8780e.gif" />
+      </div>
+
+      <div class="about-text">
+        <span class="sub-heading">Introduction</span>
+        <h2 class="heading-secondary about-heading">What is E-cell?</h2>
+        <p class="about-description">
+          The Entrepreneurship Cell of Abes-ec is a student-run organisation of spirited individuals who are
+          striving to create, foster and promote entrepreneurship among the students of Abes engineering college. The
+          E-Cell pilots
+          the budding entrepreneurs towards their goals through all the necessary resources like mentoring, consultancy
+          and networking with Alumni, Entrepreneurs, Investors.
+        </p>
+        <!-- <a class="btn--know-more" target="_blank" href="resume.pdf"> -->
+        Know More <span>&rarr;</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="section skill-section" id="skill-section">
+    <span class="sub-heading skill-heading">Skills</span>
+    <h2 class="heading-secondary what-i-do">What I can do?</h2>
+    <div class="container">
+      <div class="technical-skills">
+        <span class="sub-heading skill-subheading">Technical Skills</span>
+        <div class="skill">
+          <div class="skill-name">
+            <ion-icon class="skill-icon" name="logo-html5"></ion-icon><span>Html</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-per" per="80%" style="max-width: 80%"></div>
+          </div>
+        </div> -->
+
+  <!-- <div class="skill">
+          <div class="skill-name">
+            <ion-icon class="skill-icon" name="logo-css3"></ion-icon><span>css</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-per" per="40%" style="max-width: 40%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">
+            <ion-icon class="skill-icon" name="logo-javascript"></ion-icon><span>javascript</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-per" per="70%" style="max-width: 70%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">
+            <ion-icon class="skill-icon" name="logo-python"></ion-icon><span>python</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-per" per="60%" style="max-width: 60%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">
+            <ion-icon class="skill-icon" name="analytics"></ion-icon><span>data structures</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-per" per="80%" style="max-width: 80%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="professional-skills">
+        <span class="sub-heading skill-subheading skill-subheading-query">Professional Skills</span>
+        <div class="skill">
+          <div class="skill-name">
+            <ion-icon class="skill-icon" name="color-fill"></ion-icon><span>adobe illustrator</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-per" per="60%" style="max-width: 60%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">
+            <ion-icon class="skill-icon" name="flash"></ion-icon>
+            <span>Touch typing</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-per" per="50wpm" style="max-width: 50%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">
+            <ion-icon class="skill-icon" name="list"></ion-icon><span>excel</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-per" per="basic" style="max-width: 40%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section class="section education-section" id="education-section">
+    <div class="edu-title">
+      <h2 class="heading-secondary edu-heading">Initiatives</h2>
+    </div>
+
+    <div class="slider">
+      <div class="slide slide--1">
+        <div class="slide-box">
+          <span class="edu-date">E-club</span>
+          <div class="edu-description">
+            <!-- <h5 class="edu-header">Certified Tutor</h5> -->
+            <p>
+              The E-cell community of Abes-ec provide a conduit by which members can access entrepreneurial resources.
+              OUr aim for the coming years is to provide them with the best services.
+            </p>
+            <strong>Ecell</strong>
+          </div>
+        </div>
+      </div>
+      <div class="slide slide--2">
+        <div class="slide-box">
+          <span class="edu-date">E-Network</span>
+          <div class="edu-description">
+            <!-- <h5 class="edu-header">Graphic </h5> -->
+            <p>
+              E-Network is a network for E-Cells from various colleges and universities. E-network&rsquo;s essential
+              purpose is to provide mentorship to newer E-Cells and establish a network with E-Cells across India. It is
+              currently active in the form of a slack workspace comprising of members from 35+ E-Cells from various
+              institutions.
+            </p>
+            <strong>Ecell</strong>
+          </div>
+        </div>
+      </div>
+      <div class="slide slide--3">
+        <div class="slide-box">
+          <span class="edu-date">Delta</span>
+          <div class="edu-description">
+            <!-- <h5 class="edu-header">Geeks for Geeks</h5> -->
+            <p>
+              Delta IIT Roorkee is an opportunity portal, currently in running its pilot phase as a Facebook Community.
+              The community aims to connect the students from various institutes to professionals in the outside world.
+              Delta regularly updates students with new freelance projects, internships/jobs, upcoming competitions, and
+              more.
+            </p>
+            <strong>Ecell</strong>
+          </div>
+        </div>
+      </div>
+      <div class="slide slide--4">
+        <div class="slide-box">
+          <span class="edu-date">E-summit'25</span>
+          <div class="edu-description">
+            <!-- <h5 class="edu-header">Pursuing B.Tech</h5> -->
+            <p>E-Summit being the flagship event of E-Cell is held annually brings together the academic community,
+              venture capitalists, new-age entrepreneurs, and all those passionate about entrepreneurship to common
+              grounds.
+
+
+
+            </p>
+            <strong> Ecell</strong>
+          </div>
+        </div>
+      </div>
+
+
+
+      <button class="slider__btn slider__btn--left">&larr;</button>
+      <button class="slider__btn slider__btn--right">&rarr;</button>
+      <div class="dots"></div>
+
+    </div>
+  </section>
+
+  <section class="section project-section" id="project-section">
+    <span class="sub-heading project-heading">Our Work</span>
+    <h2 class="heading-secondary projects">Achievements</h2>
+
+    <div class="work">
+      <div class="work-list">
+        <img src="img/cell2.jpg" alt="bank application" />
+        <div class="work-details">
+
+        </div>
+      </div>
+
+      <div class="work-list">
+        <img src="img/cell1.jpg" alt="location mapping website" />
+        <div class="work-details">
+
+          <a href="" target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+        </div>
+      </div>
+
+      <div class="work-list">
+        <img src="img/cell.jpg" alt="food website" />
+        <div class="work-details">
+
+          <!-- <a href="https://omnifood-gkunal05.netlify.app" target="_blank"><ion-icon name="link-outline"></ion-icon></a> -->
+        </div>
+      </div>
+    </div>
+    <a href="#" class="see-more-btn">See More</a>
+  </section>
+  <section class="section contact-section" id="contact-section">
+    <span class="sub-heading contact-subheads">Get in touch</span>
+    <h2 class="heading-secondary contact-subheads">Contact Us</h2>
+
+    <div class="contact-me">
+      <div class="contact-links">
+        <span class="sub-heading contact-subheads">Talk to us</span>
+
+        <div class="contact-link-box">
+          <ion-icon name="mail" class="contact-icon"></ion-icon>
+          <h3>Mail</h3>
+          <a href="mailto:kunalg5802@gmail.com" class="contact-info">ecell5802@gmail.com</a>
+        </div>
+
+        <div class="contact-link-box">
+          <ion-icon class="contact-icon" name="logo-whatsapp"></ion-icon>
+          <h3>WhatsApp</h3>
+          <a href="https://api.whatsapp.com/send/?phone=%2B917217288500&text&app_absent=0" target="_blank"
+            class="contact-info">+91 721*******</a>
+        </div>
+      </div>
+
+      <div class="form">
+        <span class="sub-heading contact-subheads">Write to Us</span>
+        <div class="cta-form">
+          <form name="write-to-me" netlify class="contact-form">
+            <div class="contact-div">
+              <label class="contact-tag" for="name">Name</label>
+              <input name="name" class="contact-input" placeholder="Insert your name" type="text" id="name" required />
+            </div>
+
+            <div class="contact-div">
+              <label class="contact-tag" for="email">Email</label>
+              <input name="email" class="contact-input" placeholder="Insert your email" type="email" id="email"
+                required />
+            </div>
+
+            <div class="contact-div">
+              <label class="contact-tag" for="Message">Message</label>
+              <textarea name="message" class="contact-input" placeholder="write your message" id="Message"
+                required></textarea>
+            </div>
+
+            <input type="submit" value="Submit" class="btn-form" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer section">
+    <div class="footer-container">
+      <div class="nav-footer">
+        <ul class="footer-list">
+          <li class="footer-list-item"><a href="#about-section">About</a></li>
+          <li class="footer-list-item">
+            <a href="resume.pdf" target="_blank">Alumini</a>
+          </li>
+          <li class="footer-list-item">
+            <a href="#contact-section">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="social-media">
+        <a href="https://instagram.com/ecell05?igshid=YmMyMTA2M2Y=" class="social-link">
+          <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://twitter.com/ecell05?t=AM1GjdaQk8P1nZ3bgkm7SQ&s=09" class="social-link">
+          <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+        </a>
+
+        <a href="https://www.linkedin.com/in/e-cell-4b9182203" class="social-link">
+          <ion-icon class="social-icon" name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+      <p class="copyright-description">
+        Copyright &copy; 2022, All rights reserved.
+      </p>
+    </div>
+  </footer>
+  <!-- <script defer src="script.js"></script> -->
+</body>
+
+</html>
